@@ -1,0 +1,21 @@
+.emoji-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.emoji-tile a {
+  text-decoration: none;
+}
+.emoji-container {
+  height: 64px;
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-container img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
