@@ -3,12 +3,16 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+.emoji-tile {
+  text-align: center;
+}
 .emoji-tile a {
   text-decoration: none;
 }
 .emoji-container {
   height: 64px;
   width: 64px;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
